@@ -50,6 +50,7 @@
 
 * {
     box-sizing: border-box;
+    transition: all 0.2s ease;
 }
 
 body {
@@ -58,7 +59,7 @@ body {
     font-family: var(--main-font-family);
     background-color: var(--body-bgcolor);
     color: var(--text-color);
-    transition: background-color 0.5s ease, color 0.5s ease;
+    /* transition: background-color 0.5s ease, color 0.5s ease; */
     background-color: #fafafa77;
 }
 
@@ -94,7 +95,7 @@ body {
 .site-header {
     background-color: var(--header-bgcolor);
     color: var(--text-color);
-    transition: background-color 0.5s ease, color 0.5s ease;
+    /* transition: background-color 0.5s ease, color 0.5s ease; */
     box-shadow: 0px 2px 4px #0000000e;
 
 }
@@ -210,6 +211,10 @@ background-color: #fff;
 background-color: #2A3743;
 }
 
+main{
+background-color: #f2f2f2;
+}
+
 .theme-dark main {
     background-color: #202C36;
 }
@@ -238,7 +243,9 @@ width: 100%;
     border-radius: 5px;
 
 }
-
+.aa{
+background-color: #fff;
+}
 .input-datalist::placeholder {
 
     font-family: var(--main-font-family);
